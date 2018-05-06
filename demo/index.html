@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EasyHTTP Demo</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Custom CSS -->
+</head>
+<body>
+  <!-- Nav Section -->
+  <nav class="nav">
+    <div class="container">
+      <a href="#" class="nav__brand-name">EasyHTTP</a>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <main class="main">
+    <div class="container">
+      <div class="container__header">
+        <h1 class="container__header__heading">Make HTTP requests with EasyHTTP.</h1>
+        <p class="container__header__subheading">This demo uses JSONPlaceholder to fetch it's data.</p>
+      </div>
+      <div class="container__group">
+        <h2 class="container__group__heading">GET /users</h2>
+        <div id="users" class="container__group__users"></div>
+      </div>
+      <div class="container__group">
+        <h2 class="container__group__heading">POST /users</h2>
+        <div id="users" class="container__group__users"></div>
+      </div>
+      <div class="container__group">
+        <h2 class="container__group__heading">PUT /users/2</h2>
+        <div id="users" class="container__group__users"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../easyhttp.js"></script>
+  <script src="js/demo.js"></script>
+</body>
+</html>

@@ -1,3 +1,11 @@
+// // User Interface Constructor
+// class UI {
+//   constructor () {
+//     this.usersContainer = document.getElementById('users');
+//     this.
+//   }
+// }
+
 // Test Data
 const data = {
   name: 'John Doe',
@@ -7,6 +15,7 @@ const data = {
 
 // Initialize EasyHTTP
 const easyHttp = new EasyHTTP();
+
 
 // GET /users
 easyHttp.get('https://jsonplaceholder.typicode.com/users')

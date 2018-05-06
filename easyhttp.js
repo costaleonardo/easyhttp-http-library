@@ -29,7 +29,6 @@
        },
        body: JSON.stringify(data)
      });
-
      const resData = await response.json();
 
      return resData;
@@ -44,7 +43,6 @@
        },
        body: JSON.stringify(data)
      });
-
      const resData = await response.json();
 
      return resData;
@@ -58,7 +56,6 @@
          'Content-type': 'application/json'
        }
      });
-
      const resData = await 'Resource Deleted.';
 
      return resData;
