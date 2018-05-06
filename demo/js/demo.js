@@ -8,7 +8,7 @@
 
 // Test Data
 const data = {
-  name: 'John Doe',
+  name: 'John Does',
   username: 'johndoe',
   email: 'jdoe@gmail.com'
 }
